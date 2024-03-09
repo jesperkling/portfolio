@@ -1,4 +1,5 @@
 import "./home.scss";
+import Tools from "../../components/tools/Tools";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
           </p>
         </div>
       </section>
+      <Tools />
     </div>
   );
 };
