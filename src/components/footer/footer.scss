@@ -1,10 +1,10 @@
-footer {
-  max-width: 900px;
-  margin: auto;
-
+.footer-wrapper {
+  // margin: auto;
+  background-color: #e3bd7c;
   padding: 5rem 1rem;
   display: flex;
   flex-direction: column-reverse;
+  color: #384356;
 
   align-items: center;
   gap: 4rem;
@@ -13,6 +13,14 @@ footer {
     display: flex;
     flex-direction: column;
     flex: 1;
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: #384356;
+      }
+    }
   }
 
   .links {
@@ -22,7 +30,7 @@ footer {
     ul {
       li {
         &:first-child {
-          color: darkblue;
+          // color: darkblue;
           padding-bottom: 2rem;
         }
 
@@ -35,7 +43,7 @@ footer {
 @media (min-width: 640px) {
   footer {
     flex-direction: row;
-    align-items: self-start;
+    // align-items: self-start;
     .links {
       gap: 8rem;
     }
