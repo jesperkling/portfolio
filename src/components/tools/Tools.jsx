@@ -36,7 +36,7 @@ const Tools = () => {
     },
   ];
   return (
-    <section>
+    <section className="toolbox-container">
       <h3>My Toolbox</h3>
       <ul>
         {tools.map((tool, index) => (
