@@ -37,3 +37,25 @@
     }
   }
 }
+
+@media (min-width: 640px) {
+  .about-container {
+    padding: 4rem 6rem;
+  }
+  .content {
+    padding: 2rem;
+    flex-direction: row;
+  }
+
+  .title h1 {
+    font-size: 72px;
+  }
+
+  .presentation h3 {
+    font-size: 36px;
+  }
+
+  .image img {
+    height: 30vh;
+  }
+}
