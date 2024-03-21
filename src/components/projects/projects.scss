@@ -1,0 +1,22 @@
+.showcase ul {
+  padding: 80px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 4rem;
+
+  li {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    border-radius: 32px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .showcase ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
