@@ -21,6 +21,7 @@ const Projects = () => {
   ];
   return (
     <section className="showcase">
+      <h3 className="title">My Projects</h3>
       <ul>
         {projects.map((project, index) => (
           <li key={index}>

@@ -1,17 +1,27 @@
-.showcase ul {
-  padding: 80px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 4rem;
-
-  li {
-    background-color: #f0f0f0;
-    padding: 1rem;
-    border-radius: 32px;
+.showcase {
+  .title {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 400;
     text-align: center;
+  }
+
+  ul {
+    padding: 80px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto auto;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4rem;
+    justify-content: center;
+
+    li {
+      background-color: #f0f0f0;
+      padding: 1rem;
+      border-radius: 32px;
+      text-align: center;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+    }
   }
 }
 
