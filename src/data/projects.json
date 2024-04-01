@@ -1,18 +1,18 @@
 [
   {
-    "name": "Project 1",
-    "description": "Text"
+    "name": "Italifind",
+    "image": "src/assets/projects/italifind.png"
   },
   {
-    "name": "Project 2",
-    "description": "Text"
+    "name": "Music Player",
+    "image": "src/assets/projects/musicplayer.png"
   },
   {
-    "name": "Project 3",
-    "description": "Text"
+    "name": "Battleship Game",
+    "image": "src/assets/projects/battleship.png"
   },
   {
-    "name": "Project 4",
-    "description": "Text"
+    "name": "Flickr Gallery",
+    "image": "src/assets/projects/Flickr.png"
   }
 ]

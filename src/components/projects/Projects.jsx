@@ -9,7 +9,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <li key={index}>
             <h3>{project.name}</h3>
-            <p>{project.description}</p>
+            <img src={project.image} alt={project.name} />
           </li>
         ))}
       </ul>
