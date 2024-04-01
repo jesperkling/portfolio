@@ -1,24 +1,7 @@
 import "./projects.scss";
+import projects from "../../data/projects.json";
 
 const Projects = () => {
-  const projects = [
-    {
-      name: "Project 1",
-      description: "Text",
-    },
-    {
-      name: "Project 2",
-      description: "Text",
-    },
-    {
-      name: "Project 3",
-      description: "Text",
-    },
-    {
-      name: "Project 4",
-      description: "Text",
-    },
-  ];
   return (
     <section className="showcase">
       <h3 className="title">My Projects</h3>
