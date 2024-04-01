@@ -1,5 +1,6 @@
 import "./home.scss";
 import Tools from "../../components/tools/Tools";
+import Projects from "../../components/projects/Projects";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
           </p>
         </div>
       </section>
+      <Projects />
       <Tools />
     </div>
   );
