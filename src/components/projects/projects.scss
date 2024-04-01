@@ -26,7 +26,13 @@
 }
 
 @media (min-width: 640px) {
-  .showcase ul {
-    grid-template-columns: repeat(2, 1fr);
+  .showcase {
+    .title {
+      font-size: 48px;
+      line-height: 56px;
+    }
+    ul {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 }
