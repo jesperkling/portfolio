@@ -8,8 +8,10 @@ const Projects = () => {
       <ul>
         {projects.map((project, index) => (
           <li key={index}>
+            <a href={project.link} target="_blank" rel="noopener noreferrer">
+              <img src={project.image} alt={project.name} />
+            </a>
             <h3>{project.name}</h3>
-            <img src={project.image} alt={project.name} />
           </li>
         ))}
       </ul>
