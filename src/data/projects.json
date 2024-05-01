@@ -1,32 +1,32 @@
 [
   {
     "name": "Italifind",
-    "image": "src/assets/projects/italifind.png",
+    "image": "/assets/projects/italifind.png",
     "link": "https://hungry-app-gamma.vercel.app/"
   },
   {
     "name": "Music Player",
-    "image": "src/assets/projects/musicplayer.png",
+    "image": "/assets/projects/musicplayer.png",
     "link": "https://gilded-piroshki-e871fa.netlify.app/"
   },
   {
     "name": "Battleship Game",
-    "image": "src/assets/projects/battleship.png",
+    "image": "/assets/projects/battleship.png",
     "link": "https://battleship-client-tau.vercel.app/"
   },
   {
     "name": "Flickr Gallery",
-    "image": "src/assets/projects/Flickr.png",
+    "image": "/assets/projects/Flickr.png",
     "link": "https://flickr-task-azure.vercel.app/"
   },
   {
     "name": "Star Wars API",
-    "image": "src/assets/projects/starwars.png",
+    "image": "/assets/projects/starwars.png",
     "link": "https://star-wars-api-zeta.vercel.app/"
   },
   {
     "name": "The Movie Database",
-    "image": "src/assets/projects/moviedb.png",
+    "image": "/assets/projects/moviedb.png",
     "link": "https://the-movie-db-orcin.vercel.app/"
   }
 ]
