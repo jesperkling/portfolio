@@ -11,7 +11,7 @@ const About = () => {
 
       <section className="content">
         <div className="image">
-          <img src="src/assets/CV-Bild.jpg" alt="Profile picture" />
+          <img src="/assets/CV-Bild.jpg" alt="Profile picture" />
         </div>
         <div className="presentation">
           <h3>Developer based in Malmö, Sweden</h3>
