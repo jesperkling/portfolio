@@ -14,12 +14,13 @@ const About = () => {
           <img src="/assets/CV-Bild.jpg" alt="Profile picture" />
         </div>
         <div className="presentation">
-          <h3>Developer based in Malmö, Sweden</h3>
+          <h3>I'm a developer based in Malmö, Sweden</h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-            voluptatibus velit laudantium id? Quam laboriosam facere fugiat
-            labore officiis in fuga eligendi? Repudiandae voluptate eaque culpa
-            odit tenetur dolore aspernatur.
+            I have a diverse background in logistics and customs. I always had
+            an interest and passion for learning more about technology. That's
+            why I 2021 decided to study to become a Frontend Developer to have
+            the possibility to combine two passions of mine technology and
+            design.
           </p>
         </div>
       </section>
