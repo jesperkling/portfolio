@@ -1,38 +1,48 @@
+import {
+  FaBootstrap,
+  FaCss3,
+  FaFigma,
+  FaJs,
+  FaNode,
+  FaReact,
+  FaSass,
+} from "react-icons/fa";
 import "./tools.scss";
+import { SiMysql } from "react-icons/si";
 
 const Tools = () => {
   const tools = [
     {
       name: "React",
-      logo: "/assets/tools/icons8-react-js.svg",
+      icon: <FaReact size={32} />,
     },
     {
       name: "Node.js",
-      logo: "/assets/tools/icons8-node-js.svg",
+      icon: <FaNode size={32} />,
     },
     {
       name: "Bootstrap",
-      logo: "/assets/tools/icons8-bootstrap.svg",
+      icon: <FaBootstrap size={32} />,
     },
     {
       name: "CSS",
-      logo: "/assets/tools/icons8-css.svg",
+      icon: <FaCss3 size={32} />,
     },
     {
-      name: "Firebase",
-      logo: "/assets/tools/icons8-firebase.svg",
+      name: "Figma",
+      icon: <FaFigma size={32} />,
     },
     {
       name: "JavaScript",
-      logo: "/assets/tools/icons8-javascript.svg",
+      icon: <FaJs size={32} />,
     },
     {
       name: "Sass",
-      logo: "/assets/tools/icons8-sass.svg",
+      icon: <FaSass size={32} />,
     },
     {
-      name: "Tailwind",
-      logo: "/assets/tools/icons8-tailwind-css.svg",
+      name: "MySQL",
+      icon: <SiMysql size={32} />,
     },
   ];
   return (
@@ -41,7 +51,7 @@ const Tools = () => {
       <ul>
         {tools.map((tool, index) => (
           <li key={index}>
-            <img src={tool.logo} alt="logo" />
+            {tool.icon}
             <p>{tool.name}</p>
           </li>
         ))}
