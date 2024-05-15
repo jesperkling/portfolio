@@ -1,15 +1,30 @@
 import { Link } from "react-router-dom";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./navbar.scss";
 import { MdOutlineLightMode, MdOutlineDarkMode } from "react-icons/md";
 
 const Navbar = () => {
-  const [isLightTheme, setIsLightTheme] = useState(false);
+  const [isLightTheme, setIsLightTheme] = useState(
+    localStorage.getItem("theme") === "light"
+  );
+  const [isLoaded, setIsLoaded] = useState(false);
 
   const toggleTheme = () => {
-    setIsLightTheme(!isLightTheme);
-    document.body.classList.toggle("light-theme");
+    const newTheme = !isLightTheme;
+    setIsLightTheme(newTheme);
+    localStorage.setItem("theme", newTheme ? "light" : "dark");
+    document.body.classList.toggle("light-theme", newTheme);
   };
+
+  useEffect(() => {
+    if (document.styleSheets.length > 0) {
+      setIsLoaded(true);
+    }
+
+    if (isLoaded) {
+      document.body.classList.toggle("light-theme", isLightTheme);
+    }
+  }, [isLightTheme, isLoaded]);
 
   return (
     <div className={`navbar-container ${isLightTheme ? "light-theme" : ""}`}>
